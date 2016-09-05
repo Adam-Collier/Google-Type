@@ -7,6 +7,8 @@
 @import 'https://fonts.googleapis.com/css?family=Arvo:400,700';
 @import 'https://fonts.googleapis.com/css?family=Roboto';
 @import 'https://fonts.googleapis.com/css?family=Karla';
+@import 'https://fonts.googleapis.com/css?family=Noto+Serif';
+@import 'https://fonts.googleapis.com/css?family=Noto+Sans';
 .google-type h1 {
   font-family: futura;
   text-align: center;
@@ -43,8 +45,8 @@
 
 .opening-text {
   text-align: center;
-  margin-bottom: 160px;
-  line-height: 1.4; }
+  margin-bottom: 140px;
+  line-height: 1.5; }
 
 .left {
   width: 25%;
@@ -166,6 +168,14 @@ hr.is-showing {
   .two-bad-mice p {
     font-family: Karla;
     font-size: 20px; }
+
+.mr-tod {
+  background: #4285F4; }
+  .mr-tod h1 {
+    color: white;
+    font-family: "Noto Serif"; }
+  .mr-tod p {
+    font-family: "Noto Sans"; }
 
 @media only screen and (max-width: 768px) {
   .google-type h1 {

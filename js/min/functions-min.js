@@ -1,1 +1,1 @@
-$(document).ready(function(){$(window).scroll(function(){var n=$(this).scrollTop(),o=[".johnny-town",".squirrel-nutkin",".benjamin-bunny",".two-bad-mice"];o.forEach(function(o){n>$(o).offset().top-500&&$(o).each(function(){$(o).children().addClass("is-showing")})})})});
+$(document).ready(function(){$(window).scroll(function(){var n=$(this).scrollTop(),o=[".johnny-town",".squirrel-nutkin",".benjamin-bunny",".two-bad-mice",".mr-tod"];o.forEach(function(o){n>$(o).offset().top-500&&$(o).each(function(){$(o).children().addClass("is-showing")})})})});

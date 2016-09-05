@@ -5,7 +5,7 @@ $(window).scroll(function(){
 
 var wScroll = $(this).scrollTop();
 
-var storyFade = [".johnny-town", ".squirrel-nutkin", ".benjamin-bunny" , ".two-bad-mice"];
+var storyFade = [".johnny-town", ".squirrel-nutkin", ".benjamin-bunny" , ".two-bad-mice", ".mr-tod"];
 
 storyFade.forEach(function(storyFade){
    if(wScroll > $(storyFade).offset().top-500){
